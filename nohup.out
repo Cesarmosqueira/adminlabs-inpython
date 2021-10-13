@@ -101,3 +101,72 @@ RuntimeError: Cannot enter into task <Task pending name='Task-4' coro=<HTTP1Serv
 /usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
   return _iterencode(o, 0)
 [I 10:17:15.358 NotebookApp] Starting buffering for 60e59d63-754c-499d-afc2-817a7334a3c5:337992837d1c44fca6717b3c550c330b
+[W 10:17:36.930 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/01-NumPy Arreglos.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f5639afd880>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f5639afd880>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-4' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /kernel...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/g/.local/lib/python3.9/site-packages/jupyter_client/manager.py:332>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f5639b3ffd0>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f5639b3ffd0>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-5' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/g/.local/lib/python3.9/site-packages/jupyter_client/manager.py:332>> is being executed.
+[I 10:17:38.117 NotebookApp] Kernel started: 25c68c1a-bcde-4c66-8c2e-0f9baabca6c4, name: python3
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 10:17:50.974 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f5639a45550>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f5639a45550>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-7' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-40' coro=<MappingKernelManager.start_kernel() running at /usr/lib/python3.9/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:695]> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f563afd3e20>(<Future finis... GMT\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f563afd3e20>(<Future finis... GMT\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /custom...0 GMT\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-40' coro=<MappingKernelManager.start_kernel() running at /usr/lib/python3.9/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:695]> is being executed.
+[I 10:17:51.937 NotebookApp] Kernel started: d5ae96ab-5afd-463f-8847-4b73bb0d9a00, name: python3
+[W 10:17:55.819 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:17:56.815 NotebookApp] Kernel started: f3e90b27-f942-4e82-92ec-ea13672efdfe, name: python3
+[I 10:19:38.103 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/01-NumPy Arreglos.ipynb
+[W 10:19:38.106 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/01-NumPy Arreglos.ipynb is not trusted
+[I 10:19:51.940 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb
+[W 10:19:51.941 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb is not trusted
+[I 10:19:56.912 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:19:56.912 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:21:51.938 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb
+[W 10:21:51.939 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb is not trusted
+[I 10:21:56.806 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:21:56.806 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:23:13.533 NotebookApp] Starting buffering for d5ae96ab-5afd-463f-8847-4b73bb0d9a00:598ea73dcd1d42cc854f9dbf35bfb3b8
+[I 10:23:17.511 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:23:17.512 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:23:56.807 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:23:56.808 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:25:56.810 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:25:56.811 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:27:56.804 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:27:56.804 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[W 10:29:52.928 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/02-Numpy Indexado y Seleccion.ipynb is not trusted
+[I 10:29:54.252 NotebookApp] Starting buffering for d5ae96ab-5afd-463f-8847-4b73bb0d9a00:55d67ceb831f48eb99c8d3d7d75e8bbf
+[I 10:29:56.814 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:29:56.815 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:31:56.815 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:31:56.815 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:33:56.805 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:33:56.805 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:35:56.932 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:35:56.933 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:37:57.038 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:37:57.039 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:39:57.064 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:39:57.066 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:41:57.019 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:41:57.020 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:42:02.745 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:42:02.746 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
