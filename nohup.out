@@ -170,3 +170,106 @@ RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1Serv
 [W 10:41:57.020 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
 [I 10:42:02.745 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
 [W 10:42:02.746 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:43:57.019 NotebookApp] Saving file at /02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb
+[W 10:43:57.020 NotebookApp] Notebook 02-Python-para-Analisis-de-Datos-NumPy/04-Numpy Ejercicios.ipynb is not trusted
+[I 10:45:50.872 NotebookApp] Starting buffering for f3e90b27-f942-4e82-92ec-ea13672efdfe:3e896304307345678b72a8f3247ad9fa
+[I 10:45:51.137 NotebookApp] Starting buffering for 25c68c1a-bcde-4c66-8c2e-0f9baabca6c4:b604b1fe88124484b14b4b7251342a46
+[C 10:46:23.878 NotebookApp] received signal 15, stopping
+[I 10:46:23.878 NotebookApp] Shutting down 3 kernels
+[I 10:46:23.879 NotebookApp] Kernel shutdown: 60e59d63-754c-499d-afc2-817a7334a3c5
+[I 10:46:24.083 NotebookApp] Kernel shutdown: 27d690cd-9835-4e70-9909-d714b3c4214d
+[I 10:46:24.388 NotebookApp] Kernel shutdown: 4670a896-61b7-457d-b31b-c55d455bea09
+[I 10:46:24.591 NotebookApp] Shutting down 0 terminals
+[C 10:46:33.114 NotebookApp] received signal 15, stopping
+[I 10:46:33.114 NotebookApp] Shutting down 3 kernels
+[I 10:46:33.115 NotebookApp] Kernel shutdown: 25c68c1a-bcde-4c66-8c2e-0f9baabca6c4
+[I 10:46:33.320 NotebookApp] Kernel shutdown: d5ae96ab-5afd-463f-8847-4b73bb0d9a00
+[I 10:46:33.526 NotebookApp] Kernel shutdown: f3e90b27-f942-4e82-92ec-ea13672efdfe
+[I 10:46:33.729 NotebookApp] Shutting down 0 terminals
+[I 10:41:53.712 NotebookApp] Serving notebooks from local directory: /home/g/Documents/AdminInfo/acc-python
+[I 10:41:53.712 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 10:41:53.712 NotebookApp] http://localhost:8888/?token=d02b0717337dc42d784a0a274b7a598b6940d0fa6b079def
+[I 10:41:53.712 NotebookApp]  or http://127.0.0.1:8888/?token=d02b0717337dc42d784a0a274b7a598b6940d0fa6b079def
+[I 10:41:53.712 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:41:53.791 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/g/.local/share/jupyter/runtime/nbserver-9671-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d02b0717337dc42d784a0a274b7a598b6940d0fa6b079def
+     or http://127.0.0.1:8888/?token=d02b0717337dc42d784a0a274b7a598b6940d0fa6b079def
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 10:45:48.081 NotebookApp] Notebook 08-Plotly y Cufflinks/01-Plotly y Cufflinks.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f6ca760d7c0>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f6ca760d7c0>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-52' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /kernel...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/g/.local/lib/python3.9/site-packages/jupyter_client/manager.py:336>> is being executed.
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f6ca760d970>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f6ca760d970>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-54' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /home/g/.local/lib/python3.9/site-packages/jupyter_client/manager.py:336>> is being executed.
+[I 10:45:48.808 NotebookApp] Kernel started: 6dc8f39c-4be2-47fa-aa5f-90bcd02e61ba, name: python3
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 10:47:16.207 NotebookApp] Saving file at /08-Plotly y Cufflinks/01-Plotly y Cufflinks.ipynb
+[W 10:47:25.688 NotebookApp] Notebook 09-Visualizacion-Geografica/01-Mapas-Coropletas.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f6cac226f10>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f6cac226f10>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-56' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-172' coro=<MappingKernelManager.start_kernel() running at /usr/lib/python3.9/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:695]> is being executed.
+[I 10:47:26.493 NotebookApp] Kernel started: 92cd7f8a-2fa2-4718-af57-265e158c36f3, name: python3
+[W 10:48:48.758 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x7f6cacab49a0>(<Future finis...igin\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x7f6cacab49a0>(<Future finis...igin\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-55' coro=<HTTP1ServerConnection._server_request_loop() running at /home/g/.local/lib/python3.9/site-packages/tornado/http1connection.py:823> wait_for=<Future finished result=b'GET /api/co...rigin\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /home/g/.local/lib/python3.9/site-packages/tornado/ioloop.py:688]> while another task <Task pending name='Task-345' coro=<KernelManager._async_start_kernel() running at /home/g/.local/lib/python3.9/site-packages/jupyter_client/manager.py:337>> is being executed.
+[I 10:48:49.271 NotebookApp] Kernel started: 7cec2379-771c-4443-a319-80ead1a10d74, name: python3
+[I 10:49:26.553 NotebookApp] Saving file at /09-Visualizacion-Geografica/01-Mapas-Coropletas.ipynb
+[I 10:50:49.272 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 10:50:49.273 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 10:51:07.615 NotebookApp] Starting buffering for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 10:51:07.935 NotebookApp] Kernel restarted: 7cec2379-771c-4443-a319-80ead1a10d74
+[I 10:51:07.970 NotebookApp] Restoring connection for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 10:51:08.818 NotebookApp] Replaying 3 buffered messages
+[I 10:52:49.287 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 10:52:49.291 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 10:54:49.290 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 10:54:49.293 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 10:56:49.283 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 10:56:49.285 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:00:49.286 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:00:49.290 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:02:49.285 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:02:49.289 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:04:49.290 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:04:49.293 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:05:13.353 NotebookApp] Starting buffering for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 11:05:13.676 NotebookApp] Kernel restarted: 7cec2379-771c-4443-a319-80ead1a10d74
+[I 11:05:13.709 NotebookApp] Restoring connection for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 11:05:14.722 NotebookApp] Replaying 3 buffered messages
+[I 11:06:49.287 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:06:49.291 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:08:49.284 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:08:49.287 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:09:49.941 NotebookApp] Starting buffering for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 11:09:50.263 NotebookApp] Kernel restarted: 7cec2379-771c-4443-a319-80ead1a10d74
+[I 11:09:50.323 NotebookApp] Restoring connection for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 11:09:51.135 NotebookApp] Replaying 3 buffered messages
+[I 11:10:49.285 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:10:49.288 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:12:49.273 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:12:49.275 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:14:49.342 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:14:49.345 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:16:49.288 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[W 11:16:49.292 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
+[I 11:18:49.293 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
