@@ -273,3 +273,13 @@ RuntimeError: Cannot enter into task <Task pending name='Task-55' coro=<HTTP1Ser
 [I 11:16:49.288 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
 [W 11:16:49.292 NotebookApp] Notebook 09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb is not trusted
 [I 11:18:49.293 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[I 11:20:49.286 NotebookApp] Saving file at /09-Visualizacion-Geografica/02-Mapas Coropletas - Ejercicio.ipynb
+[I 11:44:30.647 NotebookApp] Starting buffering for 7cec2379-771c-4443-a319-80ead1a10d74:88a2ca5daa304a39814c7a68844fda67
+[I 11:44:30.648 NotebookApp] Starting buffering for 92cd7f8a-2fa2-4718-af57-265e158c36f3:069f9b0fa476406c9e25571cfca0c003
+[I 11:44:30.664 NotebookApp] Starting buffering for 6dc8f39c-4be2-47fa-aa5f-90bcd02e61ba:d0b04e88bac4474081b416c96af3390b
+[C 12:02:33.298 NotebookApp] received signal 15, stopping
+[I 12:02:33.302 NotebookApp] Shutting down 3 kernels
+[I 12:02:33.303 NotebookApp] Kernel shutdown: 6dc8f39c-4be2-47fa-aa5f-90bcd02e61ba
+[I 12:02:33.407 NotebookApp] Kernel shutdown: 92cd7f8a-2fa2-4718-af57-265e158c36f3
+[I 12:02:33.409 NotebookApp] Kernel shutdown: 7cec2379-771c-4443-a319-80ead1a10d74
+[I 12:02:33.411 NotebookApp] Shutting down 0 terminals
