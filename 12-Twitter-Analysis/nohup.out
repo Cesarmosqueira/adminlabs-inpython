@@ -106,3 +106,13 @@ RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1Serv
 [W 11:32:13.003 NotebookApp] Notebook 02-Twitter-Analisis-con-Tweepy-en-Python-Ejercicio.ipynb is not trusted
 [I 11:32:25.623 NotebookApp] Saving file at /02-Twitter-Analisis-con-Tweepy-en-Python-Ejercicio.ipynb
 [W 11:32:25.624 NotebookApp] Notebook 02-Twitter-Analisis-con-Tweepy-en-Python-Ejercicio.ipynb is not trusted
+[I 11:33:01.250 NotebookApp] Starting buffering for e5ea3aa6-d39a-4cac-806c-51870b607247:29d9fb2a7c384818b5b3ffaea87db6f9
+[I 11:33:02.278 NotebookApp] Restoring connection for e5ea3aa6-d39a-4cac-806c-51870b607247:29d9fb2a7c384818b5b3ffaea87db6f9
+[I 11:33:02.347 NotebookApp] Starting buffering for e5ea3aa6-d39a-4cac-806c-51870b607247:29d9fb2a7c384818b5b3ffaea87db6f9
+[I 12:17:08.918 NotebookApp] Starting buffering for 55ac71ed-5e93-4690-9529-abb2f4118b98:a69aa13a26604f679a819783e2cf6860
+[C 15:25:30.260 NotebookApp] received signal 15, stopping
+[I 15:25:30.261 NotebookApp] Shutting down 3 kernels
+[I 15:25:30.262 NotebookApp] Kernel shutdown: 55ac71ed-5e93-4690-9529-abb2f4118b98
+[I 15:25:30.368 NotebookApp] Kernel shutdown: a9fd1fd1-0096-4618-b91a-8c63a6b554a4
+[I 15:25:30.370 NotebookApp] Kernel shutdown: e5ea3aa6-d39a-4cac-806c-51870b607247
+[I 15:25:30.471 NotebookApp] Shutting down 0 terminals
